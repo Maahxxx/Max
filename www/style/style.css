@@ -3,7 +3,7 @@
   -moz-box-sizing: Border-box!important;
   box-sizing: Border-box!important;}
 
-/*Menu*/
+/*Början på Menu*/
 
   nav
   {
@@ -92,23 +92,25 @@ body{
 
 /*Slut menu*/
 
-div#logo {
+
+
+div#logo { /*Logo - Teknik stalker*/
   width: 200px;
   height: 105px;
   float:left;
 }
 
-div#Center {
+div#Center { /*Position av alla varor*/
  padding-top: 370px;
 }
 
-img.jpeg {
+img.jpeg { /*Bilder på varor*/
   width: 300px;
   height: 300px;
   margin: 50px;
 }
 
-figure {
+figure { /*Vara blocks*/
   float:left;
   display: block;
   position: relative;
@@ -119,7 +121,7 @@ figure {
   margin-left: 33px;
 }
 
-figcaption {
+figcaption { /*Namner på varor*/
   color: orange;
   text-align: center;
   border: solid 1px;
