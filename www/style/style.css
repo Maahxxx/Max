@@ -95,8 +95,8 @@ body{
 
 
 div#logo { /*Logo - Teknik stalker*/
-  width: 200px;
-  height: 105px;
+  width: 50px;
+  height: 50px;
   float:left;
 }
 
@@ -108,6 +108,12 @@ img.jpeg { /*Bilder på varor*/
   width: 300px;
   height: 300px;
   margin: 50px;
+}
+
+img.teknikstalker { /*teknikstalker bilden*/
+  position: relative;
+  width: 50px;
+  height: 50px;
 }
 
 figure { /*Vara blocks*/
