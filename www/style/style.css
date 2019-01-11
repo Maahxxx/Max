@@ -92,7 +92,14 @@ body{
 
 /*Slut menu*/
 
-
+h1{
+  text-decoration: none;
+  color: white;
+  position:relative;
+  left: 50px;
+  top:200px;
+  font-family: sans-serif;
+}
 
 div#logo { /*Logo - Teknik stalker*/
   width: 200px;
