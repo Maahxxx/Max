@@ -48,7 +48,7 @@
   ul>li>ul {
     position: absolute;
     top: 60px;
-    left: 0px;
+    left: auto;
     width: 240px;
     height: auto;
     background: #00FF00;
