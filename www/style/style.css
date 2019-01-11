@@ -132,9 +132,10 @@ figure { /*Vara blocks*/
   position: relative;
   width: 402.5px;
   height: auto;
-  border: solid 1px red;
+  border: solid 4px blue;
   margin: 21px;
   margin-left: 33px;
+  border-radius: 8px;
 }
 
 figcaption { /*Namner på varor*/
