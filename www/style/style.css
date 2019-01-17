@@ -34,7 +34,7 @@
     height: 60px;
     line-height: 60px;
     padding: 0px 20px;
-    text-decoration: none; color: #000;
+    text-decoration: none; color: #fff;
     -webkit-transitsion: all 0.4s;
   -moz-transitsion: all 0.4s;
   -o-transition: all 0.4s;
@@ -50,7 +50,7 @@
     left: auto;
     width: 260px;
     height: auto;
-    background: #00FF00;
+    background: #FF1493;
     padding: 0px;
     visibility: hidden;
     opacity: 0;
@@ -75,8 +75,13 @@
    -o-transition: all 0.4s;
    transition: all 0.4s;
    }
+<<<<<<< HEAD
 header nav ul>li>ul>li:hover, header nav ul>li>ul>li>a:hover{
 background: #000;
+=======
+ul>li>ul>li:hover, ul>li>ul>li>a:hover{
+background: #fff;
+>>>>>>> d5c9ae38adfcdb0b116b4559158aa9322ac13bff
 }
 
 /*--------------------------Slut menu--------------------------*/
@@ -88,13 +93,13 @@ iframe{
 
 body{
   height: 1080px;
-  background-color: #fff;
+  background-color: #000;
 }
 
 
 h1{
   text-decoration: none;
-  color: #000;
+  color: #fff;
   position:relative;
   left: 250px;
   top:200px;
