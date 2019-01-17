@@ -3,9 +3,9 @@
   -moz-box-sizing: Border-box!important;
   box-sizing: Border-box!important;}
 
-/*Början på Menu*/
+/*-------------Början på Menu-------------*/
 
-  nav
+  header nav
   {
     width: 100%;
     height: 100px;
@@ -14,21 +14,21 @@
     position: absolute;
   }
 
-  ul
+  header nav ul
   {width: 100%;
     height: 60px;
     float: left;
     padding: 0px 20px;
   }
 
-  ul>li
+  header nav ul>li
    {list-style-type: none;
      position: relative;
      float: left;
      height: 60px;
      line-height: 60px;}
 
-  ul>li>a
+  header nav ul>li>a
   {float: right; font-size: 19px;
     width: 100%;
     height: 60px;
@@ -40,11 +40,11 @@
   -o-transition: all 0.4s;
   transition: all 0.4s;}
 
-  ul>li:hover>a,
-  ul>li.active>a{
+  header nav ul>li:hover>a,
+  header nav ul>li.active>a{
     color: #fff;
   }
-  ul>li>ul {
+  header nav ul>li>ul {
     position: absolute;
     top: 60px;
     left: auto;
@@ -61,13 +61,13 @@
    transition: all 0.6s;
    }
 
-   ul>li:hover>ul {
+   header nav ul>li:hover>ul {
     visibility: visible;
     opacity: 1;
     pointer-events: initial;
    }
 
-   ul>li>ul>li, ul>li>ul>li>a {
+   header nav ul>li>ul>li,header nav ul>li>ul>li>a {
      width: 100%;
      float: left;
      -webkit-transitsion: all 0.4s;
@@ -75,9 +75,11 @@
    -o-transition: all 0.4s;
    transition: all 0.4s;
    }
-ul>li>ul>li:hover, ul>li>ul>li>a:hover{
+header nav ul>li>ul>li:hover, header nav ul>li>ul>li>a:hover{
 background: #000;
 }
+
+/*--------------------------Slut menu--------------------------*/
 
 iframe{
   width: 100%;
@@ -89,7 +91,6 @@ body{
   background-color: #fff;
 }
 
-/*Slut menu*/
 
 h1{
   text-decoration: none;
@@ -151,3 +152,28 @@ figcaption { /*Namner på varor*/
   text-align: center;
   border: solid 1px;
 }
+
+/*--------------------------Footer--------------------------------*/
+footer {
+  width: 100%;
+  background-color: #222;
+  padding: 60px 0px;
+}
+
+footer nav {
+  float:left;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+}
+
+footer nav ul li a {
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+}
+
+/*--------------------------Slut på Footer-------------------------*/
