@@ -12,6 +12,7 @@
     float: right;
     border-bottom: 1px solid #fff;
     position: absolute;
+    font-family: 'Roboto', sans-serif;
   }
 
   header nav ul
@@ -98,7 +99,7 @@ h1{
   position:relative;
   left: 250px;
   top:200px;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 div#logo { /*Logo - Teknik stalker*/
@@ -153,6 +154,7 @@ figcaption { /*Namner på varor*/
   color: orange;
   text-align: center;
   border: solid 1px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*--------------------------Footer--------------------------------*/
