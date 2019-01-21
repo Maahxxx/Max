@@ -128,6 +128,107 @@ img.jpeg { /*Bilder på varor*/
   right: 20px;
 }
 
+img.laptopasus {
+  width: 360px;
+  height: 300px;
+  margin: 50px;
+  position: relative;
+  right: 20px;
+  opacity: 1;
+  display: block;
+  transition: .5 ease;
+  backface-visibility: hidden;
+}
+
+img.props4 {
+  width: 360px;
+  height: 300px;
+  margin: 50px;
+  position: relative;
+  right: 20px;
+  opacity: 1;
+  display: block;
+  transition: .5 ease;
+  backface-visibility: hidden;
+}
+
+img.diskmaskinen {
+  width: 360px;
+  height: 300px;
+  margin: 50px;
+  position: relative;
+  right: 20px;
+  opacity: 1;
+  display: block;
+  transition: .5 ease;
+  backface-visibility: hidden;
+}
+
+img.chassit {
+  width: 360px;
+  height: 300px;
+  margin: 50px;
+  position: relative;
+  right: 20px;
+  opacity: 1;
+  display: block;
+  transition: .5 ease;
+  backface-visibility: hidden;
+}
+
+
+.chassi:hover .chassit{
+  opacity: 0.5;
+}
+
+.chassi:hover .mitten{
+  opacity: 1;
+}
+
+.diskmaskin:hover .diskmaskinen{
+  opacity: 0.5;
+}
+
+.diskmaskin:hover .mitten{
+  opacity: 1;
+}
+
+.Ps4:hover .props4{
+  opacity: 0.5;
+}
+
+.Ps4:hover .mitten{
+  opacity: 1;
+}
+
+.laptop:hover .laptopasus{
+  opacity: 0.5;
+
+}
+
+.laptop:hover .mitten{
+  opacity: 1;
+}
+
+.mitten{
+  transition: 0.5 ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.texten{
+  background-color: rgba(232, 232, 232, 0.1);
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Roboto', sans-serif;
+}
+
 img#teknikstalker { /*teknikstalker bilden*/
   position: relative;
   width: 200px;
