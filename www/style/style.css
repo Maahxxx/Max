@@ -119,9 +119,11 @@ div#Center { /*Position av alla varor*/
 }
 
 img.jpeg { /*Bilder på varor*/
-  width: 300px;
+  width: 360px;
   height: 300px;
   margin: 50px;
+  position: relative;
+  right: 15px;
 }
 
 img#teknikstalker { /*teknikstalker bilden*/
