@@ -157,7 +157,7 @@ img.diskmaskinen {
   height: 300px;
   margin: 50px;
   position: relative;
-  right: 20px;
+  right: 30px;
   opacity: 1;
   display: block;
   transition: .5 ease;
@@ -165,11 +165,11 @@ img.diskmaskinen {
 }
 
 img.chassit {
-  width: 360px;
+  width: 300px;
   height: 300px;
   margin: 50px;
   position: relative;
-  right: 20px;
+  right: 0px;
   opacity: 1;
   display: block;
   transition: .5 ease;
