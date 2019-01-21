@@ -11,7 +11,7 @@
   border: solid 3px red;
   position: relative;
   top: 20px;
-  left: 200px;
+  left: 250px;
   background-color: rgba(232, 235, 232, 1);
 }
 
@@ -21,7 +21,7 @@
   border: solid 3px red;
   position: relative;
   top: -30px;
-  left: 450px;
+  left: 500px;
   background-color: rgba(232, 235, 232, 1);
 }
 
@@ -31,7 +31,7 @@
   border: solid 3px red;
   position: relative;
   top: -80px;
-  left: 700px;
+  left: 750px;
   background-color: rgba(232, 235, 232, 1);
 }
 
@@ -217,8 +217,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 200px;
   height: 100px;
   margin: 50px;
-  bottom: 50px;
-  right: 50px;
+  bottom: 30px;
+  right: 40px;
 }
 
 .laptop { /*Vara blocks*/
@@ -323,7 +323,7 @@ footer nav ul li a {
   height: 400px;
   position: relative;
   margin: auto;
-  top: 150px;
+  top: 75px;
   right: 200px;
   border: 2px solid black;
   border-radius: 6px;
@@ -394,7 +394,7 @@ footer nav ul li a {
   display: inline-block;
   transition: background-color 0.6s ease;
   position: relative;
-  top: 100px;
+  top: 30px;
   right: 400px;
 }
 
@@ -426,7 +426,7 @@ footer nav ul li a {
   border: 1px solid red;
   position: relative;
   left: 810px;
-  bottom: 285px;
+  bottom: 362px;
   border-radius: 6px;
   background-color: rgba(192, 192, 192, 0.5);
 }
@@ -434,7 +434,7 @@ footer nav ul li a {
 .prisforasusrog{
   position: relative;
   font-size: 46px;
-  left: 145px;
+  left: 160px;
   top: 15px;
   font-family: 'Roboto', sans-serif;
   color: red;
@@ -447,7 +447,7 @@ footer nav ul li a {
   height: 80px;
   border: 1px solid green;
   position: relative;
-  bottom: 560px;
+  bottom: 650px;
   left: 965px;
   border-radius: 8px;
   background-color: rgba(0, 230, 64, 1);
