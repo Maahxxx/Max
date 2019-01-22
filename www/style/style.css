@@ -558,6 +558,7 @@ footer nav ul li a {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
+  -webkit-transition: max-height 0.2s;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
