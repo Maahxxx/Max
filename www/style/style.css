@@ -562,7 +562,7 @@ footer nav ul li a {
   background-color: #f1f1f1;
   position: relative;
   bottom:420px;
-  width:40%;
+  width:33%;
   left: 810px;
 }
 
@@ -574,6 +574,11 @@ footer nav ul li a {
 .specifikationertextenrubrik{
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
+  color: black;
+}
+.specifikationertextenrubrik2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
   color: black;
 }
 
@@ -594,8 +599,22 @@ footer nav ul li a {
   border-radius: 6px;
   background-color: rgba(191, 191, 191, 0.3);
 }
+.ps4info{
+  width: 32.5%;
+  height: 500px;
+  border: 1.5px solid black;
+  position: absolute;
+  left: 20.5%;
+  bottom: -60%;
+  border-radius: 6px;
+  background-color: rgba(191, 191, 191, 0.3);
+}
 
 .merinfolaptoprubrik{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.merinfops4rubrik{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
