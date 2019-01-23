@@ -483,10 +483,10 @@ footer nav ul li a {
 }
 
 .köpknapp{
-  font-size: 24px;
+  font-size: 20px;
   position: relative;
-  left: 25px;
-  top: 20px;
+  left: 17.5px;
+  top: 30px;
   font-family: 'Roboto', sans-serif;
   color: black;
 }
