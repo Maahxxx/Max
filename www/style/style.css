@@ -452,7 +452,7 @@ footer nav ul li a {
 .asuslaptoppris{
   width: 500px;
   height: 400px;
-  border: 1px solid red;
+  border: 0px solid red;
   position: relative;
   left: 810px;
   bottom: 362px;
@@ -485,8 +485,8 @@ footer nav ul li a {
 .köpknapp{
   font-size: 20px;
   position: relative;
-  left: 17.5px;
-  top: 30px;
+  left: 16.5px;
+  top: 25px;
   font-family: 'Roboto', sans-serif;
   color: black;
 }
@@ -591,4 +591,14 @@ footer nav ul li a {
   position: absolute;
   left: 20.5%;
   bottom: -33%;
+}
+
+.merinfolaptoprubrik{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.Merinfospecs{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
