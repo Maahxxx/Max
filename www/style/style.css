@@ -434,13 +434,13 @@ footer nav ul li a {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: 0}
   to {opacity: 1}
 }
 
@@ -493,11 +493,11 @@ footer nav ul li a {
 
 .köpknapp:hover{
   color: #fff;
-  -o-transition: .2s;
-  -ms-transition: .2s;
-  -moz-transition: .2s;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -o-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .köpknapp_länk{
@@ -587,7 +587,7 @@ footer nav ul li a {
 .Asuslaptopmerinfo{
   width: 32.5%;
   height: 500px;
-  border: 0px solid red;
+  border: 1.5px solid black;
   position: absolute;
   left: 20.5%;
   bottom: -60%;
