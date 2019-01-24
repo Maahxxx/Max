@@ -257,13 +257,13 @@ img#teknikstalker { /*teknikstalker bilden*/
   position: relative;
   width: 402.5px;
   height: auto;
-  border: solid 3px rgba(0, 181, 204, 0.5);
+  border: solid 3px rgba(0, 0, 0, 0.5);
   margin: 21px;
   margin-left: 33px;
   border-radius: 8px;
   bottom: 200px;
   left: 25px;
-  background-color: rgba(0, 181, 204, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .Ps4 { /*ps4 block*/
@@ -272,13 +272,13 @@ img#teknikstalker { /*teknikstalker bilden*/
   position: relative;
   width: 402.5px;
   height: auto;
-  border: solid 3px rgba(0, 181, 204, 0.5);
+  border: solid 3px rgba(0, 0, 0, 0.5);
   margin: 21px;
   margin-left: 33px;
   border-radius: 8px;
   bottom: 200px;
   left: 25px;
-  background-color: rgba(0, 181, 204, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .xbox { /*Xbox block*/
@@ -287,13 +287,13 @@ img#teknikstalker { /*teknikstalker bilden*/
   position: relative;
   width: 402.5px;
   height: 425px;
-  border: solid 3px rgba(0, 181, 204, 0.5);
+  border: solid 3px rgba(0, 0, 0, 0.5);
   margin: 21px;
   margin-left: 33px;
   border-radius: 8px;
   bottom: 200px;
   left: 25px;
-  background-color: rgba(0, 181, 204, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .xboxonextext{
@@ -307,19 +307,19 @@ img#teknikstalker { /*teknikstalker bilden*/
   position: relative;
   width: 402.5px;
   height: auto;
-  border: solid 3px rgba(0, 181, 204, 0.5);
+  border: solid 3px rgba(0, 0, 0, 0.5);
   margin: 21px;
   margin-left: 33px;
   border-radius: 8px;
   bottom: 200px;
   left: 25px;
-  background-color: rgba(0, 181, 204, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 figcaption { /*Namner på varor*/
-  color: black;
+  color: white;
   text-align: center;
-  border: solid 1px;
+  border: solid black 1px;
   border-radius: 6px;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
