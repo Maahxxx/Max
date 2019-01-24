@@ -1,0 +1,168 @@
+* {margin: 0; padding: 0;
+  -webkit-box-sizing: Border-box!important;
+  -moz-box-sizing: Border-box!important;
+  box-sizing: Border-box!important;}
+
+/*-------------Början på Menu-------------*/
+
+.thenavdiv1{                                  /*Komponenter*/
+  width: 250px;
+  height: 50px;
+  border: solid 3px red;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: rgba(232, 235, 232, 1);
+}
+
+.thenavdiv2{                                   /*Konsol*/
+  width: 250px;
+  height: 50px;
+  border: solid 3px red;
+  position: relative;
+  top: -30px;
+  left: 500px;
+  background-color: rgba(232, 235, 232, 1);
+}
+
+.thenavdiv3{                                 /*Hemelektronik*/
+  width: 250px;
+  height: 50px;
+  border: solid 3px red;
+  position: relative;
+  top: -80px;
+  left: 750px;
+  background-color: rgba(232, 235, 232, 1);
+}
+
+.datorer_och_mer{                            /*Komponenters texten*/
+  font-size: 32px;
+  top: -75px;
+  left: 17px;
+  width: 250px;
+}
+
+.konsoltext{                                     /*Konsols texten*/
+  font-size: 32px;
+  top: -25px;
+  left: 50px;
+  width: 250px;
+}
+
+.hemelektroniktext{                          /*Hemelektroniks texten*/
+  font-size: 32px;
+  top: 3px;
+  left: 15px;
+  width: 250px;
+}
+
+.datorer_och_mer:hover{                    /*Hover över "Komponeter"*/
+  color: rgba(107, 185, 240, 1);
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.konsoltext:hover{                         /*Hover över "Konsoler"*/
+  color: rgba(107, 185, 240, 1);
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.hemelektroniktext:hover{                /*Hover över "Hemelektronik"*/
+  color: rgba(107, 185, 240, 1);
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+
+
+.navtext{         /*Texten i menu*/
+  color: black;
+  text-decoration: none;
+  text-decoration-style: none;
+}
+
+/*--------------------------Slut menu--------------------------*/
+
+body{
+  height: 1080px;
+  background-color: #fff;
+}
+
+h1{
+  text-decoration: none;
+  color: #000;
+  position:relative;
+  left: 250px;
+  top:75px;
+  font-family: 'Roboto', sans-serif;
+}
+
+div#logo { /*Logo - Teknik stalker*/
+  width: 200px;
+  height: 100px;
+  float:left;
+}
+
+div#Center { /*Position av alla varor*/
+ padding-top: 200px;
+ background-color: rgba(192, 192, 192, 0.5);
+ width: 975px;
+ height: 950px;
+ position:relative;
+ left: 250px;
+ top: 75px;
+ border-radius: 8px;
+ border: solid 3px black;
+}
+
+img.jpeg { /*Bilder på varor*/
+  width: 360px;
+  height: 300px;
+  margin: 50px;
+  position: relative;
+  right: 20px;
+}
+
+img#teknikstalker { /*logo bilden*/
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin: 50px;
+  bottom: 30px;
+  right: 40px;
+}
+
+/*--------------------------Footer--------------------------------*/
+footer {
+  width: 100%;
+  background-color: #222;
+  padding: 60px 0px;
+}
+
+footer nav {
+  float:left;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+}
+
+footer nav ul li a {
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+}
+
+/*--------------------------Slut på Footer-------------------------*/
