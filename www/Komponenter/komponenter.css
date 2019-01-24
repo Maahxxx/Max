@@ -134,11 +134,22 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 300px;
   height: 300px;
   position: relative;
-  border: 2px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   left: 250px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
+.cpudiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 555px;
+  bottom: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
 
 .motherboardcaption{
     color: white;
@@ -147,8 +158,8 @@ img#teknikstalker { /*teknikstalker bilden*/
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size: 32px;
-    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 42px;
+    -webkit-text-stroke: 1px black;
   }
 
   .moderkortbild{
@@ -160,6 +171,16 @@ img#teknikstalker { /*teknikstalker bilden*/
     backface-visibility: hidden;
     height: 300px;
   }
+
+.cpubild{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 300px;
+}
 
   .middle{
     transition: .5s ease;
@@ -177,5 +198,13 @@ img#teknikstalker { /*teknikstalker bilden*/
 }
 
 .motherboard:hover .middle{
+  opacity: 1;
+}
+
+.cpudiv:hover .cpubild{
+  opacity: 0.3;
+}
+
+.cpudiv:hover .middle{
   opacity: 1;
 }
