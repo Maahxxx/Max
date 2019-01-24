@@ -469,7 +469,7 @@ footer nav ul li a {
 .prisforasusrog{
   position: relative;
   font-size: 46px;
-  left: 160px;
+  left: 175px;
   top: 15px;
   font-family: 'Roboto', sans-serif;
   color: red;
@@ -592,11 +592,11 @@ footer nav ul li a {
 
 .Asuslaptopmerinfo{
   width: 32.5%;
-  height: 500px;
+  height: 300px;
   border: 1.5px solid black;
   position: absolute;
   left: 20.5%;
-  bottom: -60%;
+  bottom: -32.5%;
   border-radius: 6px;
   background-color: rgba(191, 191, 191, 0.3);
 }
