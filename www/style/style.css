@@ -164,15 +164,16 @@ img.props4 {
 }
 
 img.diskmaskinen {
-  width: 360px;
-  height: 300px;
+  width: 380px;
+  height: 250px;
   margin: 50px;
   position: relative;
-  right: 30px;
+  right: 50px;
   opacity: 1;
   display: block;
   transition: .5 ease;
   backface-visibility: hidden;
+  top: 50px;
 }
 
 img.chassit {
@@ -285,7 +286,7 @@ img#teknikstalker { /*teknikstalker bilden*/
   display: block;
   position: relative;
   width: 402.5px;
-  height: auto;
+  height: 425px;
   border: solid 3px rgba(0, 181, 204, 0.5);
   margin: 21px;
   margin-left: 33px;
@@ -293,6 +294,11 @@ img#teknikstalker { /*teknikstalker bilden*/
   bottom: 200px;
   left: 25px;
   background-color: rgba(0, 181, 204, 0.1);
+}
+
+.xboxonextext{
+  position: relative;
+  top: 50px;
 }
 
 .chassi { /*chassi block*/
@@ -562,7 +568,7 @@ footer nav ul li a {
   background-color: #f1f1f1;
   position: relative;
   bottom:420px;
-  width:33%;
+  width:40%;
   left: 810px;
 }
 
@@ -574,11 +580,6 @@ footer nav ul li a {
 .specifikationertextenrubrik{
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  color: black;
-}
-.specifikationertextenrubrik2{
-  font-family: 'Roboto', sans-serif;
-  font-size: 19px;
   color: black;
 }
 
@@ -599,22 +600,8 @@ footer nav ul li a {
   border-radius: 6px;
   background-color: rgba(191, 191, 191, 0.3);
 }
-.ps4info{
-  width: 32.5%;
-  height: 500px;
-  border: 1.5px solid black;
-  position: absolute;
-  left: 20.5%;
-  bottom: -60%;
-  border-radius: 6px;
-  background-color: rgba(191, 191, 191, 0.3);
-}
 
 .merinfolaptoprubrik{
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-}
-.merinfops4rubrik{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
