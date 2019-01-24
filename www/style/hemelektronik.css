@@ -5,7 +5,7 @@
 
 /*-------------Början på Menu-------------*/
 
-.thenavdiv1{
+.thenavdiv1{                                  /*Komponenter*/
   width: 250px;
   height: 50px;
   border: solid 3px red;
@@ -15,7 +15,7 @@
   background-color: rgba(232, 235, 232, 1);
 }
 
-.thenavdiv2{
+.thenavdiv2{                                   /*Konsol*/
   width: 250px;
   height: 50px;
   border: solid 3px red;
@@ -25,7 +25,7 @@
   background-color: rgba(232, 235, 232, 1);
 }
 
-.thenavdiv3{
+.thenavdiv3{                                 /*Hemelektronik*/
   width: 250px;
   height: 50px;
   border: solid 3px red;
@@ -35,28 +35,28 @@
   background-color: rgba(232, 235, 232, 1);
 }
 
-.datorer_och_mer{
+.datorer_och_mer{                            /*Komponenters texten*/
   font-size: 32px;
   top: -75px;
   left: 17px;
   width: 250px;
 }
 
-.konsoltext{
+.konsoltext{                                     /*Konsols texten*/
   font-size: 32px;
   top: -25px;
   left: 50px;
   width: 250px;
 }
 
-.hemelektroniktext{
+.hemelektroniktext{                          /*Hemelektroniks texten*/
   font-size: 32px;
   top: 3px;
   left: 15px;
   width: 250px;
 }
 
-.datorer_och_mer:hover{
+.datorer_och_mer:hover{                    /*Hover över "Komponeter"*/
   color: rgba(107, 185, 240, 1);
   -o-transition: .3s;
   -ms-transition: .3s;
@@ -65,7 +65,7 @@
   transition: .3s;
 }
 
-.konsoltext:hover{
+.konsoltext:hover{                         /*Hover över "Konsoler"*/
   color: rgba(107, 185, 240, 1);
   -o-transition: .3s;
   -ms-transition: .3s;
@@ -74,7 +74,7 @@
   transition: .3s;
 }
 
-.hemelektroniktext:hover{
+.hemelektroniktext:hover{                /*Hover över "Hemelektronik"*/
   color: rgba(107, 185, 240, 1);
   -o-transition: .3s;
   -ms-transition: .3s;
@@ -85,7 +85,7 @@
 
 
 
-.navtext{
+.navtext{         /*Texten i menu*/
   color: black;
   text-decoration: none;
   text-decoration-style: none;
@@ -140,16 +140,6 @@ img#teknikstalker { /*logo bilden*/
   margin: 50px;
   bottom: 30px;
   right: 40px;
-}
-
-
-figcaption { /*Namner på varor*/
-  color: black;
-  text-align: center;
-  border: solid 1px;
-  border-radius: 6px;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
 }
 
 /*--------------------------Footer--------------------------------*/

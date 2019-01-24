@@ -1,0 +1,9 @@
+
+figcaption { /*Namner på varor*/
+  color: black;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
