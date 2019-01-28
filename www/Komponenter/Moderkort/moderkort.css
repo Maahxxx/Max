@@ -360,13 +360,13 @@ img#teknikstalker { /*teknikstalker bilden*/
 .CASEbild{
   opacity: 1;
   display: block;
-  width: 75%;
+  width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 200px;
-  top: 50px;
+  height: 300px;
+  top: 0px;
   position: relative;
-  left: 30px;
+  left: 0px;
 }
 
   .middle{
