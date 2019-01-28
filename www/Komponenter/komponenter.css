@@ -206,6 +206,17 @@ img#teknikstalker { /*teknikstalker bilden*/
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.CASEdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 1065px;
+  bottom: 1785px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .motherboardcaption{
     color: white;
     text-align: center;
@@ -296,6 +307,18 @@ img#teknikstalker { /*teknikstalker bilden*/
   left: 30px;
 }
 
+.CASEbild{
+  opacity: 1;
+  display: block;
+  width: 75%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 200px;
+  top: 50px;
+  position: relative;
+  left: 30px;
+}
+
   .middle{
     transition: .5s ease;
     opacity: 0;
@@ -360,5 +383,13 @@ img#teknikstalker { /*teknikstalker bilden*/
 }
 
 .Coolerdiv:hover .middle{
+  opacity: 1;
+}
+
+.CASEdiv:hover .CASEbild{
+  opacity: 0.3;
+}
+
+.CASEdiv:hover .middle{
   opacity: 1;
 }
