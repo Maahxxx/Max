@@ -111,7 +111,8 @@ iframe{
 
 body{
   height: 1080px;
-  background-color: #fff;
+  background-color: inherit;
+  background: url(../../pics/greybackground.png) no-repeat fixed center;
 }
 
 
@@ -229,7 +230,7 @@ img#teknikstalker { /*teknikstalker bilden*/
 }
 
 .motherboardcaption{
-    color: white;
+    color: red;
     text-align: center;
     border: solid 0px;
     border-radius: 4px;
@@ -240,7 +241,7 @@ img#teknikstalker { /*teknikstalker bilden*/
   }
 
   .prispåvaror{
-    color: white;
+    color: red;
     font-size: 36px;
     border: solid red 0px;
     border-radius: 4px;
@@ -252,14 +253,26 @@ img#teknikstalker { /*teknikstalker bilden*/
   }
 
   .prispåvaror2{
-    color: white;
+    color: red;
     font-size: 36px;
     border: solid red 0px;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     position: relative;
-    bottom: -25px;
+    top: 25px;
+    -webkit-text-stroke: 0.6px black;
+  }
+
+  .prispåvaror3{
+    color: red;
+    font-size: 34px;
+    border: solid red 0px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    position: relative;
+    bottom: -55px;
     -webkit-text-stroke: 0.6px black;
   }
 
@@ -299,6 +312,30 @@ img#teknikstalker { /*teknikstalker bilden*/
 .GPUbild{
   opacity: 1;
   display: block;
+  width: 75%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 250px;
+  top: 25px;
+  position: relative;
+  left: 25px;
+}
+
+.HDDbild{
+  opacity: 1;
+  display: block;
+  width: 90%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 275px;
+  top: 10px;
+  position: relative;
+  left: 15px;
+}
+
+.PSUbild{
+  opacity: 1;
+  display: block;
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -308,40 +345,16 @@ img#teknikstalker { /*teknikstalker bilden*/
   left: 0px;
 }
 
-.HDDbild{
-  opacity: 1;
-  display: block;
-  width: 75%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  height: 300px;
-  top: -10px;
-  position: relative;
-  left: 30px;
-}
-
-.PSUbild{
+.Coolerbild{
   opacity: 1;
   display: block;
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 200px;
-  top: 50px;
+  height: 250px;
+  top: 30px;
   position: relative;
   left: 0px;
-}
-
-.Coolerbild{
-  opacity: 1;
-  display: block;
-  width: 75%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  height: 200px;
-  top: 50px;
-  position: relative;
-  left: 30px;
 }
 
 .CASEbild{

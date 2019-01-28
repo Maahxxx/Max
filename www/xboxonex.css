@@ -109,7 +109,8 @@ iframe{
 
 body{
   height: 1080px;
-  background-color: #fff;
+  background-color: inherit;
+  background: url(pics/greybackground.png) no-repeat fixed center;
 }
 
 
