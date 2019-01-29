@@ -288,6 +288,30 @@ img#teknikstalker { /*teknikstalker bilden*/
     -webkit-text-stroke: 0.6px black;
   }
 
+  .prispåvaror5{
+    color: red;
+    font-size: 34px;
+    border: solid red 0px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    position: relative;
+    bottom: -50px;
+    -webkit-text-stroke: 0.6px black;
+  }
+
+  .prispåvaror5{
+    color: red;
+    font-size: 34px;
+    border: solid red 0px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    position: relative;
+    bottom: 0px;
+    -webkit-text-stroke: 0.6px black;
+  }
+
   .moderkortbild{
     opacity: 1;
     display: block;
@@ -295,34 +319,34 @@ img#teknikstalker { /*teknikstalker bilden*/
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    height: 200px;
+    height: 300px;
     position: relative;
-    top: 50px;
+    top: -5px;
   }
 
 .cpubild{
   opacity: 1;
   display: block;
-  width: 110%;
+  width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 250px;
+  height: 300px;
   position: relative;
-  right: 10px;
-  top: 50px;
+  right: 0px;
+  top: px;
 }
 
 .RAMbild{
   opacity: 1;
   display: block;
-  width: 110%;
+  width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
   height: 250px;
-  top: 25px;
+  top: 50px;
   position: relative;
-  right: 15px;
+  right: 0px;
 }
 
 .GPUbild{
@@ -331,8 +355,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 85%;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 250px;
-  top: 25px;
+  height: 200px;
+  top: 50px;
   position: relative;
   left: 25px;
 }
@@ -343,8 +367,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 250px;
-  top: 20px;
+  height: 275px;
+  top: 10px;
   position: relative;
   left: 0px;
 }
@@ -355,8 +379,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 300px;
-  top: 0px;
+  height: 200px;
+  top: 50px;
   position: relative;
   left: 0px;
 }
@@ -367,8 +391,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 300px;
-  top: 10px;
+  height: 150px;
+  top: 65px;
   position: relative;
   left: 0px;
 }
@@ -379,8 +403,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 300px;
-  top: 0px;
+  height: 200px;
+  top: 50px;
   position: relative;
   left: 0px;
 }
