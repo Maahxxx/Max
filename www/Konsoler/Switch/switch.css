@@ -110,9 +110,10 @@ iframe{
 }
 
 body{
-  height: 720px;
-  background-color: #inherit;
-  background: url(../pics/greybackground.png) no-repeat fixed center;
+  height: 1080px;
+  background-color: inherit;
+  background: url(../../pics/greybackground.png) no-repeat fixed center;
+  overflow-x: hidden;
 }
 
 

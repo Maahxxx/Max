@@ -110,7 +110,7 @@ iframe{
 body{
   height: 1080px;
   background-color: inherit;
-  background: url(../pics/greybackground.png) no-repeat fixed center;
+  background: url(../../pics/greybackground.png) no-repeat fixed center;
   overflow-x: hidden;
 }
 
@@ -607,7 +607,7 @@ footer nav ul li a {
   border: 1.5px solid black;
   position: absolute;
   left: 20.5%;
-  bottom: -29%;
+  bottom: -30%;
   border-radius: 6px;
   background-color: rgba(191, 191, 191, 0.3);
 }
