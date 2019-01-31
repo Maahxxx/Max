@@ -173,39 +173,6 @@ img#teknikstalker { /*teknikstalker bilden*/
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.HDDdiv{
-  width: 300px;
-  height: 300px;
-  position: relative;
-  border: 2px solid rgba(0, 0, 0, 0.5);
-  border-radius: 6px;
-  left: 150px;
-  bottom: 885px;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.PSUdiv{
-  width: 300px;
-  height: 300px;
-  position: relative;
-  border: 2px solid rgba(0, 0, 0, 0.5);
-  border-radius: 6px;
-  left: 455px;
-  bottom: 1185px;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.Coolerdiv{
-  width: 300px;
-  height: 300px;
-  position: relative;
-  border: 2px solid rgba(0, 0, 0, 0.5);
-  border-radius: 6px;
-  left: 760px;
-  bottom: 1485px;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
 .motherboardcaption{
     color: white;
     text-align: center;
@@ -260,42 +227,6 @@ img#teknikstalker { /*teknikstalker bilden*/
   left: 0px;
 }
 
-.HDDbild{
-  opacity: 1;
-  display: block;
-  width: 75%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  height: 300px;
-  top: -10px;
-  position: relative;
-  left: 30px;
-}
-
-.PSUbild{
-  opacity: 1;
-  display: block;
-  width: 100%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  height: 200px;
-  top: 50px;
-  position: relative;
-  left: 0px;
-}
-
-.Coolerbild{
-  opacity: 1;
-  display: block;
-  width: 75%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  height: 200px;
-  top: 50px;
-  position: relative;
-  left: 30px;
-}
-
   .middle{
     transition: .5s ease;
     opacity: 0;
@@ -336,29 +267,5 @@ img#teknikstalker { /*teknikstalker bilden*/
 }
 
 .GPUdiv:hover .middle{
-  opacity: 1;
-}
-
-.HDDdiv:hover .HDDbild{
-  opacity: 0.3;
-}
-
-.HDDdiv:hover .middle{
-  opacity: 1;
-}
-
-.PSUdiv:hover .PSUbild{
-  opacity: 0.3;
-}
-
-.PSUdiv:hover .middle{
-  opacity: 1;
-}
-
-.Coolerdiv:hover .Coolerbild{
-  opacity: 0.3;
-}
-
-.Coolerdiv:hover .middle{
   opacity: 1;
 }
