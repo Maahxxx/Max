@@ -229,6 +229,7 @@ img#teknikstalker { /*teknikstalker bilden*/
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+
 .motherboardcaption{
     color: red;
     text-align: center;
@@ -283,6 +284,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   left: 0px;
 }
 
+
+
 .HDDbild{
   opacity: 1;
   display: block;
@@ -331,6 +334,7 @@ img#teknikstalker { /*teknikstalker bilden*/
   left: 30px;
 }
 
+
   .middle{
     transition: .5s ease;
     opacity: 0;
@@ -373,6 +377,7 @@ img#teknikstalker { /*teknikstalker bilden*/
 .GPUdiv:hover .middle{
   opacity: 1;
 }
+
 
 .HDDdiv:hover .HDDbild{
   opacity: 0.3;

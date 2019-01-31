@@ -93,7 +93,7 @@
 
 /*--------------------------Slut menu--------------------------*/
 
-body{
+body{  /*Body - Storlek, bakgrund*/
   height: 1080px;
   background-color: #fff;
 }
@@ -167,6 +167,7 @@ footer nav ul li a {
 
 /*--------------------------Slut på Footer-------------------------*/
 
+<<<<<<< HEAD
 .img {
   width: 100%;
   border: 1px red solid;
@@ -179,4 +180,24 @@ footer nav ul li a {
   float:left;
   border: 1px black solid;
 
+=======
+.img { /*image*/
+  height: 296px;
+  width: 300px;
+  padding-left: 100px;
+  margin-left: 50px;
+  float:left;
+  margin-left: -45px;
+
+}
+
+.test1{ /*Div, bakgrund*/
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 75px;
+  background-color: rgba(0, 0, 0, 0.2);
+>>>>>>> 07288baf7416fa180b1d55b05c9fa1807f98a1af
 }
