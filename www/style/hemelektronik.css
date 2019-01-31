@@ -168,6 +168,15 @@ footer nav ul li a {
 /*--------------------------Slut på Footer-------------------------*/
 
 .img {
-  width: 400px;
-  padding-left: 100px;
+  width: 100%;
+  border: 1px red solid;
+  align-items: center; 
+}
+
+.selection {
+  width: 300px;
+  height: 350px;
+  float:left;
+  border: 1px black solid;
+
 }
