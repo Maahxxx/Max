@@ -8,7 +8,7 @@
 .thenavdiv1{                                  /*Komponenter*/
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: 20px;
   left: 250px;
@@ -18,7 +18,7 @@
 .thenavdiv2{                                   /*Konsol*/
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -30px;
   left: 500px;
@@ -28,7 +28,7 @@
 .thenavdiv3{                                 /*Hemelektronik*/
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -80px;
   left: 750px;
@@ -93,7 +93,7 @@
 
 /*--------------------------Slut menu--------------------------*/
 
-body{
+body{  /*Body - Storlek, bakgrund*/
   height: 1080px;
   background-color: #fff;
 }
@@ -167,7 +167,43 @@ footer nav ul li a {
 
 /*--------------------------Slut på Footer-------------------------*/
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 .img {
-  width: 400px;
+  width: 100%;
+  border: 1px red solid;
+  align-items: center; 
+}
+
+.selection {
+  width: 300px;
+  height: 350px;
+  float:left;
+  border: 1px black solid;
+
+=======
+>>>>>>> b937312cd2997c344f42704f61f543f2064396a9
+.img { /*image*/
+  height: 296px;
+  width: 300px;
   padding-left: 100px;
+  margin-left: 50px;
+  float:left;
+  margin-left: -45px;
+
+}
+
+.test1{ /*Div, bakgrund*/
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 75px;
+  background-color: rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
+=======
+>>>>>>> 07288baf7416fa180b1d55b05c9fa1807f98a1af
+>>>>>>> b937312cd2997c344f42704f61f543f2064396a9
 }
