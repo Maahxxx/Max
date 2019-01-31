@@ -305,9 +305,9 @@ img#teknikstalker { /*teknikstalker bilden*/
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    height: 150px;
+    height: 350px;
     position: relative;
-    top: 65px;
+    bottom: 20px;
   }
 
 .cpubild{
@@ -326,10 +326,10 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 320;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 400px;
-  bottom: 50px;
+  height: 280px;
   position: relative;
   right: 12px;
+  top: 10px;
 }
 
 .GPUbild{
