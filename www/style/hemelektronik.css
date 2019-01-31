@@ -8,7 +8,7 @@
 .thenavdiv1{                                  /*Komponenter*/
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: 20px;
   left: 250px;
@@ -18,7 +18,7 @@
 .thenavdiv2{                                   /*Konsol*/
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -30px;
   left: 500px;
@@ -28,7 +28,7 @@
 .thenavdiv3{                                 /*Hemelektronik*/
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -80px;
   left: 750px;

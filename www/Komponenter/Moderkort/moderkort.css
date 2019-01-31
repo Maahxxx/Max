@@ -8,7 +8,7 @@
 .thenavdiv1{
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: 20px;
   left: 250px;
@@ -18,7 +18,7 @@
 .thenavdiv2{
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -30px;
   left: 500px;
@@ -28,7 +28,7 @@
 .thenavdiv3{
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -80px;
   left: 750px;
@@ -93,6 +93,17 @@
 
 /*--------------------------Slut menu--------------------------*/
 
+.line{
+  display: block;
+   height: 70px;
+   border: none;
+   border-top: 5px solid #000;
+   margin: 0px;;
+   padding: 0;
+   position: relative;
+   bottom: 2450px;
+}
+
 iframe{
   width: 100%;
   height: 100%;
@@ -100,7 +111,8 @@ iframe{
 
 body{
   height: 1080px;
-  background-color: #fff;
+  background-color: inherit;
+  background: url(../../pics/greybackground.png) no-repeat fixed center;
 }
 
 
@@ -126,4 +138,308 @@ img#teknikstalker { /*teknikstalker bilden*/
   margin: 50px;
   bottom: 30px;
   right: 40px;
+}
+
+/*Motherboard*/
+
+.motherboard{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 150px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cpudiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 455px;
+  bottom: 300px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.RAMdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 760px;
+  bottom: 600px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.GPUdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 1065px;
+  bottom: 900px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.HDDdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 150px;
+  bottom: 885px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.PSUdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 455px;
+  bottom: 1185px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Coolerdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 760px;
+  bottom: 1485px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.CASEdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 1065px;
+  bottom: 1785px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.motherboardcaption{
+    color: red;
+    text-align: center;
+    border: solid 0px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 42px;
+    -webkit-text-stroke: 1px black;
+  }
+
+  .prispåvaror{
+    color: red;
+    font-size: 36px;
+    border: solid red 0px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 75px;
+    -webkit-text-stroke: 0.6px black;
+  }
+
+  .prispåvaror2{
+    color: red;
+    font-size: 36px;
+    border: solid red 0px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+    -webkit-text-stroke: 0.6px black;
+  }
+
+  .prispåvaror3{
+    color: red;
+    font-size: 34px;
+    border: solid red 0px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    position: relative;
+    bottom: -55px;
+    -webkit-text-stroke: 0.6px black;
+  }
+
+  .moderkortbild{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 300px;
+  }
+
+.cpubild{
+  opacity: 1;
+  display: block;
+  width: 125%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 300px;
+  position: relative;
+  right: 25px;
+}
+
+.RAMbild{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 300px;
+  top: 0px;
+  position: relative;
+}
+
+.GPUbild{
+  opacity: 1;
+  display: block;
+  width: 75%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 250px;
+  top: 25px;
+  position: relative;
+  left: 25px;
+}
+
+.HDDbild{
+  opacity: 1;
+  display: block;
+  width: 90%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 275px;
+  top: 10px;
+  position: relative;
+  left: 15px;
+}
+
+.PSUbild{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 300px;
+  top: 0px;
+  position: relative;
+  left: 0px;
+}
+
+.Coolerbild{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 250px;
+  top: 30px;
+  position: relative;
+  left: 0px;
+}
+
+.CASEbild{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 300px;
+  top: 0px;
+  position: relative;
+  left: 0px;
+}
+
+  .middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.motherboard:hover .moderkortbild{
+  opacity: 0.3;
+}
+
+.motherboard:hover .middle{
+  opacity: 1;
+}
+
+.cpudiv:hover .cpubild{
+  opacity: 0.3;
+}
+
+.cpudiv:hover .middle{
+  opacity: 1;
+}
+
+.RAMdiv:hover .RAMbild{
+  opacity: 0.3;
+}
+
+.RAMdiv:hover .middle{
+  opacity: 1;
+}
+
+.GPUdiv:hover .GPUbild{
+  opacity: 0.3;
+}
+
+.GPUdiv:hover .middle{
+  opacity: 1;
+}
+
+.HDDdiv:hover .HDDbild{
+  opacity: 0.3;
+}
+
+.HDDdiv:hover .middle{
+  opacity: 1;
+}
+
+.PSUdiv:hover .PSUbild{
+  opacity: 0.3;
+}
+
+.PSUdiv:hover .middle{
+  opacity: 1;
+}
+
+.Coolerdiv:hover .Coolerbild{
+  opacity: 0.3;
+}
+
+.Coolerdiv:hover .middle{
+  opacity: 1;
+}
+
+.CASEdiv:hover .CASEbild{
+  opacity: 0.3;
+}
+
+.CASEdiv:hover .middle{
+  opacity: 1;
 }

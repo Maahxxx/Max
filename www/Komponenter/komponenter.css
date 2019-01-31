@@ -8,7 +8,7 @@
 .thenavdiv1{
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: 20px;
   left: 250px;
@@ -18,7 +18,7 @@
 .thenavdiv2{
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -30px;
   left: 500px;
@@ -28,7 +28,7 @@
 .thenavdiv3{
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -80px;
   left: 750px;
@@ -93,6 +93,17 @@
 
 /*--------------------------Slut menu--------------------------*/
 
+.line{
+  display: block;
+   height: 70px;
+   border: none;
+   border-top: 5px solid #000;
+   margin: 0px;;
+   padding: 0;
+   position: relative;
+   bottom: 2450px;
+}
+
 iframe{
   width: 100%;
   height: 100%;
@@ -100,7 +111,8 @@ iframe{
 
 body{
   height: 1080px;
-  background-color: #fff;
+  background-color: #inherit;
+  background: url(../pics/greybackground.png) no-repeat fixed center;
 }
 
 
@@ -173,8 +185,55 @@ img#teknikstalker { /*teknikstalker bilden*/
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
+=======
+.HDDdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 150px;
+  bottom: 885px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.PSUdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 455px;
+  bottom: 1185px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Coolerdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 760px;
+  bottom: 1485px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.CASEdiv{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  left: 1065px;
+  bottom: 1785px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+>>>>>>> 871be52397991e3c8cd20c8fc5dfb01dea6915b1
 .motherboardcaption{
-    color: white;
+    color: red;
     text-align: center;
     border: solid 0px;
     border-radius: 4px;
@@ -227,6 +286,57 @@ img#teknikstalker { /*teknikstalker bilden*/
   left: 0px;
 }
 
+<<<<<<< HEAD
+=======
+.HDDbild{
+  opacity: 1;
+  display: block;
+  width: 75%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 300px;
+  top: -10px;
+  position: relative;
+  left: 30px;
+}
+
+.PSUbild{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 200px;
+  top: 50px;
+  position: relative;
+  left: 0px;
+}
+
+.Coolerbild{
+  opacity: 1;
+  display: block;
+  width: 75%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 200px;
+  top: 50px;
+  position: relative;
+  left: 30px;
+}
+
+.CASEbild{
+  opacity: 1;
+  display: block;
+  width: 75%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 200px;
+  top: 50px;
+  position: relative;
+  left: 30px;
+}
+
+>>>>>>> 871be52397991e3c8cd20c8fc5dfb01dea6915b1
   .middle{
     transition: .5s ease;
     opacity: 0;
@@ -269,3 +379,38 @@ img#teknikstalker { /*teknikstalker bilden*/
 .GPUdiv:hover .middle{
   opacity: 1;
 }
+<<<<<<< HEAD
+=======
+
+.HDDdiv:hover .HDDbild{
+  opacity: 0.3;
+}
+
+.HDDdiv:hover .middle{
+  opacity: 1;
+}
+
+.PSUdiv:hover .PSUbild{
+  opacity: 0.3;
+}
+
+.PSUdiv:hover .middle{
+  opacity: 1;
+}
+
+.Coolerdiv:hover .Coolerbild{
+  opacity: 0.3;
+}
+
+.Coolerdiv:hover .middle{
+  opacity: 1;
+}
+
+.CASEdiv:hover .CASEbild{
+  opacity: 0.3;
+}
+
+.CASEdiv:hover .middle{
+  opacity: 1;
+}
+>>>>>>> 871be52397991e3c8cd20c8fc5dfb01dea6915b1

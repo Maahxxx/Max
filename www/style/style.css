@@ -8,7 +8,7 @@
 .thenavdiv1{
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: 20px;
   left: 250px;
@@ -18,7 +18,7 @@
 .thenavdiv2{
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -30px;
   left: 500px;
@@ -28,7 +28,7 @@
 .thenavdiv3{
   width: 250px;
   height: 50px;
-  border: solid 3px red;
+  border: solid 3px black;
   position: relative;
   top: -80px;
   left: 750px;
@@ -93,6 +93,15 @@
 
 /*--------------------------Slut menu--------------------------*/
 
+.line{
+  display: block;
+   height: 70px;
+   border: none;
+   border-top: 5px solid #000;
+   margin: -50px;;
+   padding: 0;
+}
+
 iframe{
   width: 100%;
   height: 100%;
@@ -100,7 +109,9 @@ iframe{
 
 body{
   height: 1080px;
-  background-color: #fff;
+  background-color: inherit;
+  background: url(../pics/greybackground.png) no-repeat fixed center;
+  overflow-x: hidden;
 }
 
 
@@ -596,7 +607,7 @@ footer nav ul li a {
   border: 1.5px solid black;
   position: absolute;
   left: 20.5%;
-  bottom: -60%;
+  bottom: -56%;
   border-radius: 6px;
   background-color: rgba(191, 191, 191, 0.3);
 }
