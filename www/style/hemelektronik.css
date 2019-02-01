@@ -244,11 +244,12 @@ img#teknikstalker { /*teknikstalker bilden*/
   .moderkortbild{
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 70%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
     height: 300px;
+    left: 50px;
   }
 
 .cpubild{
@@ -267,8 +268,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 200px;
-  top: 50px;
+  height: 280px;
+  top: 10px;
   position: relative;
 }
 
@@ -293,7 +294,7 @@ img#teknikstalker { /*teknikstalker bilden*/
   transition: .5s ease;
   backface-visibility: hidden;
   height: 300px;
-  top: -10px;
+  top: 0px;
   position: relative;
   left: 30px;
 }
@@ -328,8 +329,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   width: 75%;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 200px;
-  top: 50px;
+  height: 300px;
+  top: 0px;
   position: relative;
   left: 30px;
 }
