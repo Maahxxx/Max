@@ -110,7 +110,7 @@ iframe{
 }
 
 body{
-  height: 1080px;
+  height: 920px;
   background-color: #inherit;
   background: url(../pics/greybackground.png) no-repeat fixed center;
 }
@@ -249,7 +249,7 @@ img#teknikstalker { /*teknikstalker bilden*/
     transition: .5s ease;
     backface-visibility: hidden;
     height: 300px;
-    left: 50px;
+    margin-left: 45px;
   }
 
 .cpubild{
@@ -259,7 +259,8 @@ img#teknikstalker { /*teknikstalker bilden*/
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  height: 300px;
+  height: 200px;
+  margin-top: 50px;
 }
 
 .RAMbild{
